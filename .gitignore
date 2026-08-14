@@ -1,0 +1,9 @@
+node_modules/
+
+# Never commit real configuration. .env.example is the committed template.
+.env
+.env.*
+!.env.example
+
+*.log
+.DS_Store
